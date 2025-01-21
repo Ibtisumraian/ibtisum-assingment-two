@@ -126,6 +126,7 @@
     font-weight: 600;
     line-height: 30px;
     border: none;
+    cursor: pointer;
 }
 /* .banner-btn p{
     color: rgb(255, 255, 255);
@@ -203,6 +204,7 @@
     font-size: 0.9rem;
     font-weight: 700;
     line-height: 28.3px;
+    cursor: pointer;
 }
 
 .elementary{
@@ -218,6 +220,8 @@
 .angle-btn{
     display: flex;
     margin-top: 80px;
+    cursor: pointer;
+    gap: 10px;
 }
 .angle{
     width: 60px;
@@ -260,8 +264,8 @@
         align-items: center;
         justify-content: center;
     }
-    .ddlj{
-        text-align: center;
+    .standards{
+        width: 530px;
     }
     .banner-text h1{
         display: flex;
