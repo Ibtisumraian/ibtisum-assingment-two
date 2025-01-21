@@ -97,9 +97,9 @@
     align-self: stretch;
     margin-bottom: 24px;
     display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 .banner-text p{
     color: rgb(17, 17, 17);
@@ -108,6 +108,8 @@ align-items: flex-start;
     font-weight: 400;
     line-height: 25px;
     margin-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .banner-btn{
     /* max-width: 250px; */
@@ -231,7 +233,7 @@ align-items: flex-start;
 
 /* media quary for small device */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 576px) {
 
     /* navbar */
 
@@ -258,15 +260,36 @@ align-items: flex-start;
         align-items: center;
         justify-content: center;
     }
+    .ddlj{
+        text-align: center;
+    }
     .banner-text h1{
         display: flex;
         justify-content: center;
         align-items: center;
+        font-size: 2.5rem;
+        font-weight: 700;
+        line-height: 40px;
     }
     .banner-text p{
+        max-width: 550px;
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 18px;
+    }
+
+    /* main section */
+    .standard-list{
+        display: flex;
+        flex-direction: column;
+        gap:30px;
+        margin-top: 20px;
+    }
+    .angle-btn{
+        display: none;
     }
 }
