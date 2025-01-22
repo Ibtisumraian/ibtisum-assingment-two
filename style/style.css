@@ -565,4 +565,12 @@ marquee{
     .date1 img{
         width: 100%;
     }
+
+    /* footer section */
+
+    .foot-container{
+        flex-direction: column;
+        margin-left: 25px;
+        gap: 10px;
+    }
 }
