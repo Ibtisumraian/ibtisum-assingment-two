@@ -220,7 +220,6 @@
 .angle-btn{
     display: flex;
     margin-top: 80px;
-    cursor: pointer;
     gap: 10px;
 }
 .angle{
@@ -233,7 +232,162 @@
     justify-content: center;
     color: white;
     font-size: 30px;
+    cursor: pointer;
 }
+.angle:hover{
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(238, 202, 202, 0) 40%),rgb(221, 215, 161);
+    color: rgb(100, 200, 255);
+    box-shadow: 0px 0px 40px 0px rgba(100, 200, 255, 1);
+    transition-duration: 1s;
+    
+}
+
+/* Our story section */
+
+.Stories{
+    /* min-height: 1018px; */
+    background: url(../assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+    
+}
+.Stories .dd h1{
+    color: rgb(73, 71, 71);
+    font-family: "Work Sans", serif;
+    font-size: 2.9rem;
+    font-weight: 600;
+    line-height: 57.5px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.dd{
+    max-width: 460px;
+    margin: 0 auto;
+}
+.story-container{
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.november{
+    max-width: 540px;
+    border-radius: 16px;
+    background-color: white;
+    padding-bottom: 34px;
+    
+}
+.november .mg{
+    border-radius: 16px 16px 0px 0px;
+    
+}
+.november .date{
+    max-width: 175px;
+    
+    border-radius: 47.93px;
+    background: rgb(60, 216, 232);
+    color: rgb(255, 255, 255);
+    font-family: "Work Sans", serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 28.76px;
+    border: none;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    padding: 10px 20px;
+    margin-left: 35px;
+    position: relative;
+    margin-top: -27px;
+}
+.november-text{
+    max-width: 433px;
+    margin-left: 35px;
+    margin-top: 60px;
+}
+
+.november-text h4{
+    max-width: 402px;
+    color: rgb(0, 0, 0);
+    font-family: "Work Sans", serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 38.35px;
+}
+
+.november-text p{
+    color: rgb(102, 102, 102);
+    font-family: "Work Sans", serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 28.76px;
+    margin-top: 50px;
+    
+}
+
+.more-dates{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.date1{
+    /* height: 302px; */
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+
+}
+
+.more-dates img{
+    border-radius: 16px 16px 0px 0px;
+}
+.date-27{
+    max-width: 175px;
+    height: 40px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-family: "Work Sans", serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 28.76px;
+    border-radius: 47.93px;
+    background: rgb(149, 178, 38);
+    margin-top: -25px;
+    margin-left: 38px;
+}
+.date1 h4{
+    max-width: 198px;
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: .9rem;
+    font-weight: 700;
+    line-height: 28.76px;
+    margin-left: 38px;
+    margin-top: 24px;
+}
+
+.stories-btn{
+    width: 197px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(17, 17, 17);
+    border-radius: 12px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.stories-btn h1{
+    color: rgb(255, 255, 255);
+    font-family: "Work Sans", serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 30px;
+}
+
 
 /* media quary for small device */
 
