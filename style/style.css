@@ -408,6 +408,76 @@ marquee{
     cursor: pointer;
 }
 
+/* footr starts */
+.foot{
+    background-color: rgb(1, 172, 253);
+    padding-top: 120px;
+    padding-bottom: 170px;
+
+}
+
+.foot-container{
+    max-width: 1500px;
+    display: flex;
+    justify-content: space-between;
+    margin: 120px auto;
+    margin-bottom: 170px;
+}
+
+.logo{
+    
+    display: flex;
+
+}
+.foot-logo{
+    max-width: 399px;
+}
+.foot-logo p{
+    color: rgb(255, 255, 255);
+    font-family: "Work Sans", serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: initial;
+    margin-top: 30px;
+    margin-left: 7px;
+}
+.logo h1{
+    max-width: 207px;
+    color: rgb(255, 255, 255);
+    font-family: "Work Sans", serif;
+    font-size: 2.7rem;
+    font-weight: 700;
+    line-height: 39.51px;
+}
+.foot-ul{
+    max-width: 160px;
+}
+#h101{
+    color: rgb(255, 255, 255);
+    font-family: "Work Sans", serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 30px;
+}
+.foot-ul li{
+    list-style: none;
+    margin-top: 20px;
+}
+.foot-ul a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: "Work Sans", serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 25px;
+}
+.foot-icon{
+    max-width: 200px;
+}
+.icons{
+    margin-top: 30px;
+}
 
 /* media quary for small device */
 
