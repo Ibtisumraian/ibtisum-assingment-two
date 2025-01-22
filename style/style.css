@@ -387,6 +387,12 @@
     font-weight: 700;
     line-height: 30px;
 }
+.stories-btn:hover{
+    background-color: gray;
+    border: none;
+    transition-duration: 80ms;
+    cursor: pointer;
+}
 
 
 /* media quary for small device */
@@ -449,5 +455,22 @@
     }
     .angle-btn{
         display: none;
+    }
+    /* our stories section */
+
+    .november{
+        display: none;
+    }
+    .more-dates{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+        margin: 0 auto;
+    }
+    .date1{
+        width: 250px;
+    }
+    .date1 img{
+        width: 100%;
     }
 }
