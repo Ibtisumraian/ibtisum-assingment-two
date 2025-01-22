@@ -358,7 +358,7 @@ marquee{
     gap: 20px;
 }
 .date1{
-    /* height: 302px; */
+    height: 315px;
     border-radius: 16px;
     background: rgb(255, 255, 255);
 
@@ -382,7 +382,7 @@ marquee{
     border-radius: 47.93px;
     background: rgb(149, 178, 38);
     margin-top: -25px;
-    margin-left: 38px;
+    margin-left: 20px;
     cursor: pointer;
 }
 .date1 h4{
@@ -392,7 +392,7 @@ marquee{
     font-size: .9rem;
     font-weight: 700;
     line-height: 28.76px;
-    margin-left: 38px;
+    margin-left: 20px;
     margin-top: 24px;
 }
 
