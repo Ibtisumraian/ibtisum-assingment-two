@@ -581,9 +581,15 @@ marquee{
 
     /* footer section */
 
+    .foot{
+        padding-top: 66px;
+        padding-bottom: 10px;
+    }
     .foot-container{
         flex-direction: column;
         margin-left: 25px;
+        margin-top: 30px;
+        margin-bottom: 100px;
         gap: 10px;
     }
 }
